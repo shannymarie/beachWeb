@@ -10,7 +10,7 @@ margin: 0;
 background-color: #fce7a7;
 list-style-type: none;
 overflow: hidden;
-border-bottom: #ffbf00 solid 3px;
+border-bottom: #ffbf00 solid 2px;
 position: fixed;
 top: 0;
 width: 99%;
@@ -44,7 +44,7 @@ color: #fce7a7;
     background-color: #fce7a7;
     color: #6f9940;
     text-align: center;
-border-top: #ffbf00 solid 3px;
+border-top: #ffbf00 solid 2px;
 }
 
 .form{
@@ -55,8 +55,28 @@ margin-left: 50px;
 background-color: rgb(237, 237, 237);
 margin-top: 100px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-border: solid 3px #ffbf00;
+border: solid 1px #ffbf00;
 position: absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.form div{
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+background-color: white;
+width: 80%;
+height: 20%;
+padding: 10px;
+margin: 20px;
+transition: padding 1s, box-shadow 2s;
+}
+
+.form div:hover{
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding: 30px;
+
 }
 
 .content{
@@ -68,6 +88,6 @@ position: absolute;
     margin-top: 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
-    border: solid 3px #ffbf00;
+    border: solid 1px #ffbf00;
 }
 
